@@ -11,7 +11,7 @@ This project is a Java web service built using [insert framework or technology s
 
 ## Prerequisites
 
-- JDK [insert required JDK version] or higher
+- Docker
 - [insert any other dependencies or requirements]
 
 ## Getting Started

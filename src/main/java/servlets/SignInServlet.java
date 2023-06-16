@@ -49,6 +49,7 @@ public class SignInServlet extends HttpServlet {
         }
 
         UserProfile profile = accountService.getUserByLogin(login);
+
         if (profile == null || !profile.getPassword().equals(password)) {
             response.setContentType("text/html;charset=utf-8");
             response.getWriter().println("Unauthorized");
