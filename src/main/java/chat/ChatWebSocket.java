@@ -1,4 +1,4 @@
-package chat.chat;
+package chat;
 
 import org.eclipse.jetty.websocket.api.Session;
 import org.eclipse.jetty.websocket.api.annotations.OnWebSocketClose;

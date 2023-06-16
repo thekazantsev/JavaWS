@@ -10,7 +10,7 @@ import org.eclipse.jetty.servlet.ServletHolder;
 import servlets.SignInServlet;
 import servlets.SignUpServlet;
 
-public class Main {
+public class MainAccounts {
     public static void main(String[] args) throws Exception {
 
         AccountService accountService = new AccountService();
